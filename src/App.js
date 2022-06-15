@@ -1,5 +1,11 @@
+import NavBar from "./components/NavBar";
+import Main from "./components/Main";
+
 export default function App() {
     return (
-      <h1>App Component</h1>
+        <div className="container">
+            <NavBar />
+            <Main />
+        </div>
     )
-}
+} 
